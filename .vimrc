@@ -14,6 +14,11 @@ set ignorecase
 "set vim to detect changes made from outside
 set autoread
 
+"abbreviations
+"Go
+iabbrev :: :=
+
+
 "searching
 set path+=** "adds subdirs of current working directory to the path
 set wildmenu "enables tabbing through possible results
@@ -27,6 +32,7 @@ set scrolloff=10
 "formatting stuff
 set expandtab
 set autoindent
+set softtabstop=4
 
 "color-config
 highlight Comment ctermfg=Green
