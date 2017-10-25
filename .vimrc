@@ -14,8 +14,9 @@ set ignorecase
 "set vim to detect changes made from outside
 set autoread
 
-"abbreviations
 "Go
+set completeopt-=preview "disable the preview window when completing gocode with omnicompletion
+"abbreviations
 iabbrev :: :=
 
 
