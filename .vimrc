@@ -27,6 +27,7 @@ set wildmenu "enables tabbing through possible results
 "file browsing
 let g:netrw_banner=0
 let g:netrw_liststyle=3
+autocmd FileType netrw setl bufhidden=wipe
 
 "offset at which code scrolls down
 set scrolloff=10

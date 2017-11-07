@@ -123,6 +123,7 @@ export IVIEW_HOME=/mnt/d/iview
 export WIN_USER_HOME=/mnt/c/Users/Sievers
 export PATH=$PATH:/mnt/c/"Program Files"/Gradle/"gradle-4.0.1-bin"/"gradle-4.0.1"/bin:/usr/local/go/bin:/home/unei/go/bin
 export JAVA_HOME=/usr/lib/jvm/"java-1.8.0-openjdk-amd64"
+export EDITOR=vim
 
 # -- Improved X11 forwarding through GNU Screen (or tmux).
 # If not in screen or tmux, update the DISPLAY cache.

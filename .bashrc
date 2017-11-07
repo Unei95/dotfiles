@@ -124,6 +124,7 @@ export WIN_USER_HOME=/mnt/c/Users/Sievers
 export GOPATH=/home/unei/go
 export PATH=$PATH:/mnt/c/"Program Files"/Gradle/"gradle-4.0.1-bin"/"gradle-4.0.1"/bin
 export JAVA_HOME=/usr/lib/jvm/"java-1.8.0-openjdk-amd64"
+export EDITOR=vim
 
 # -- Improved X11 forwarding through GNU Screen (or tmux).
 # If not in screen or tmux, update the DISPLAY cache.
