@@ -13,6 +13,7 @@ set hlsearch
 set ignorecase
 "set vim to detect changes made from outside
 set autoread
+set statusline=%{fugitive#statusline()}
 
 "Go
 set completeopt-=preview "disable the preview window when completing gocode with omnicompletion
