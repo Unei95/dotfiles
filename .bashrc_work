@@ -139,7 +139,7 @@ function update-x11-forwarding
 
 #aliases
 alias idea='/usr/bin/idea-IC-172.3757.52/bin/idea.sh'
-alias docker="docker -H=tcp://localhost:2375"
+alias docker='docker -H tcp://0.0.0.0:2375'
 #automatically change to the directory you were looking at when exiting ranger
 alias ranger='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"' 
 cd()

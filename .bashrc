@@ -140,7 +140,6 @@ function update-x11-forwarding
 
 #aliases
 alias idea='/usr/bin/idea-IC-172.3757.52/bin/idea.sh'
-alias docker="docker -H=tcp://localhost:2375"
 cd()
 {
 	builtin cd $@
