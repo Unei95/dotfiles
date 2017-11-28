@@ -37,7 +37,12 @@ set expandtab
 set autoindent
 set softtabstop=4
 
+let g:gruvbox_contrast_dark='hard'
+set background=dark
+
+colorscheme gruvbox
+
 "color-config
-highlight Comment ctermfg=Green
-highlight Directory ctermfg=Cyan
+"highlight Comment ctermfg=Green
+"highlight Directory ctermfg=Cyan
 

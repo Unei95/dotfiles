@@ -161,3 +161,6 @@ update-x11-forwarding
 #echo DISPLAY = $DISPLAY, display.txt = `cat ~/.display.txt`, STY = $STY, TMUX = $TMUX  
 }
 trap 'preexec' DEBUG
+
+source "$HOME/.vim/scripts/gruvbox_256palette.sh"
+cd "$HOME/"
