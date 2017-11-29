@@ -1,7 +1,9 @@
+"actually use VIM (unlocks alot of features, makes it incompatible with vi)
+set nocompatible
+
 "set plugin indent for vim-go
 filetype plugin indent on
 "set my standard stuff for vim
-set nocompatible
 syntax enable
 filetype plugin on
 
